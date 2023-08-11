@@ -5,7 +5,7 @@ This repository contains Shaan Walia's submission for the ACE GovTech project. W
 ## Backend Setup
 
 To set up the backend of the application, follow these steps:
-Backend located here:  [GovTechBackend](https://github.com/mxixqc/GovTech) repository.
+Backend located here: [GovTechBackend](https://github.com/mxixqc/GovTech) repository.
 
 1. Create a MySQL database named `govtech` using MySQL Workbench or your preferred database management tool.
 2. Edit the `application.properties` file located in the `src/main/resources` folder.
@@ -32,3 +32,11 @@ Once both the backend and frontend setups are complete:
 The application should now be accessible and ready to use.
 
 Feel free to reach out if you encounter any issues or have any questions. We appreciate your interest in our project!
+
+## ELSE
+
+I have added Dockerfile in the application.
+To run the application using docker, follow these steps:
+
+1. `docker build -t gtfe .`
+2. `docker run -p 3000:3000 gtfe`
